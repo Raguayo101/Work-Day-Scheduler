@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+
+}
+
+.jumbotron{
+    
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.align-end {
+    text-align: end;
+    border-top: 1px dashed black;
+}
