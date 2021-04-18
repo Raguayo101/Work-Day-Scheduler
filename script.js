@@ -20,13 +20,13 @@ function colorChange() {
     
         // statement that change the color of the background depending on the hour.
         if(staticTime < currentHour){
-            $('.staticHour').css('background-color','rgb(255, 94, 0)');
+            $(this).css('background-color','rgb(255, 94, 0)');
         }
         else if (staticTime === currentHour){
-            $('.staticHour').css('background-color','rgb(0, 255, 98)');
+            $(this).css('background-color','rgb(0, 255, 98)');
         }
         else{
-            $('.staticHour').css('background-color', 'rgb(37, 124, 223)');
+            $(this).css('background-color', 'rgb(37, 124, 223)');
         }
 
     });
